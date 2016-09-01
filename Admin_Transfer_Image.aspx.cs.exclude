@@ -1,0 +1,41 @@
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+public partial class Admin_Transfer_Image : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (IsPostBack)
+        {
+            string seller = Request.Form["tbid"].ToString();
+            string buyer = Request.Form["tbbid"].ToString();
+
+            if (seller.Length > 0 && buyer.Length > 0)
+            {
+
+                seller = seller.Replace("data:image/jpeg;base64,", "");
+                buyer = buyer.Replace("data:image/jpeg;base64,", "");
+
+                byte[] sellerBytes = Convert.FromBase64String(seller);
+                MemoryStream ms = new MemoryStream(sellerBytes, 0, sellerBytes.Length);
+                ms.Write(sellerBytes, 0, sellerBytes.Length);
+                System.Drawing.Image image = System.Drawing.Image.FromStream(ms, true);
+                image.Save(Server.MapPath("/Captures/Buyer.jpg"), System.Drawing.Imaging.ImageFormat.Jpeg);
+                //************************************************
+                byte[] buyerBytes = Convert.FromBase64String(buyer);
+                MemoryStream sm = new MemoryStream(buyerBytes, 0, buyerBytes.Length);
+
+                // Convert byte[] to Image
+                sm.Write(buyerBytes, 0, buyerBytes.Length);
+                System.Drawing.Image img = System.Drawing.Image.FromStream(sm, true);
+                img.Save(Server.MapPath("/Captures/Seller.jpg"), System.Drawing.Imaging.ImageFormat.Jpeg);
+                Response.Redirect("admin_transfer_form.aspx");
+            }
+        }
+    }
+}

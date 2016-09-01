@@ -1,0 +1,217 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="sitedashboardmaster.master.cs" Inherits="Dashboard" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>AdamsGarden Dashboard</title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet"/>
+    <link href="Content/styles1.css" rel="stylesheet"/>
+    <script src="Scripts/jquery-1.10.2.js"></script>
+	<script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/lumino.glyphs.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            window.setTimeout(function () {
+                $(".alert").fadeTo(1000, 0).slideUp(1000, function () {
+                    $(this).remove();
+                });
+            }, 5000);
+
+        });
+        $(document).ready(function () {
+            var url = window.location.pathname;
+            var substr = url.split('/');
+            var urlaspx = substr[substr.length - 1];
+            
+            $('.nav').find('.active').removeClass('active');
+            $('.nav li a').each(function () {
+                if (this.href.indexOf(urlaspx) >= 0) {
+                    $(this).parent().addClass('active');
+                }
+            });
+        });
+    </script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    
+    <div>
+       <form method="post" runat="server">
+                           
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sidebar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+                 
+				<a class="navbar-brand" href="#"><span>Adam's</span>&nbsp;Garden</a>
+               
+				<ul class="user-menu">
+					<li class="dropdown pull-right">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg> <%=Session["uname"] %> <span class="caret"></span></a>
+                         <asp:Button ID="loginbtn" runat="server" Text="Logout" OnClick="logoutbtn_Click" CausesValidation="false"/> 
+                        <ul class="dropdown-menu" role="menu">
+<!--<a href="#"><svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg> Profile</a></li>-->
+							<li><a href="admin_profile.aspx"><svg class="glyph stroked gear"><use xlink:href="#stroked-gear"></use></svg> Settings</a></li>
+							<li></li>
+						</ul>
+
+					</li>
+				</ul>
+			</div>
+							
+		</div><!-- /.container-fluid -->
+	</nav>
+		
+	<div id="sidebar-collapse" class="col-sm-5 col-lg-2 sidebar">
+		
+		<ul class="nav menu">
+			<li class="active"><a href="dashboard.aspx"><svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Dashboard</a></li>
+ 
+            <li class="parent">
+                <a href="admin_property_info.aspx">
+                <span data-toggle="collapse" href="#sub-item-1"><svg class="glyph stroked chevron-down"><use xlink:href="#stroked-chevron-down"></use></svg></span>Property 
+				</a>
+				<ul class="children collapse" id="sub-item-1">
+					<li>
+						<a class="" href="admin_property_info.aspx">
+							<svg class="glyph stroked chevron-right" style="color:black;"><use xlink:href="#stroked-chevron-right"></use></svg> Property Details
+						</a>
+					</li>
+                    <li>
+						<a class="" href="admin_unpaid_downpayment.aspx">
+							<svg class="glyph stroked chevron-right" style="color:black;"><use xlink:href="#stroked-chevron-right"></use></svg> Unpaid Downpayment Clients
+						</a>
+					</li>
+					<li>
+						<a class="" href="admin_downpayment.aspx">
+							<svg class="glyph stroked chevron-right" style="color:black;"><use xlink:href="#stroked-chevron-right"></use></svg> Down Payment Form
+						</a>
+					</li>
+					
+				</ul>
+			</li>
+            
+
+            <li class="parent ">
+				<a href="admin_view_client_detail.aspx">
+					<span data-toggle="collapse" href="#sub-item-3"><svg class="glyph stroked chevron-down"><use xlink:href="#stroked-chevron-down"></use></svg></span> Clients
+				</a>
+				<ul class="children collapse" id="sub-item-3">
+                    <li>
+						<a class="" href="admin_membership_registeration.aspx">
+							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg>Client Registration
+						</a>
+					</li>
+					<li>
+						<a class="" href="admin_view_client_detail.aspx">
+							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg>View Client Information
+						</a>
+					</li>
+					<li>
+						<a class="" href="admin_view_client_installment_plan.aspx">
+							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> View Client's Installment Plan
+						</a>
+					</li>
+     
+					
+				</ul>
+                </li>
+	
+            <li class="parent ">
+				<a href="admin_installment.aspx">
+					<span data-toggle="collapse" href="#sub-item-2"><svg class="glyph stroked chevron-down"><use xlink:href="#stroked-chevron-down"></use></svg></span> Installments
+				</a>
+				<ul class="children collapse" id="sub-item-2" >
+                    <li>
+						<a class="" href="admin_installment_record.aspx">
+							<svg class="glyph stroked table"  style="color:black;"><use xlink:href="#stroked-chevron-right"></use></svg> View Client Installment Record
+						</a>
+					</li>
+					<li>
+						<a class="" href="admin_installment.aspx" >
+							<svg class="glyph stroked table "  style="color:black;font:bold"><use xlink:href="#stroked-chevron-right" ></use></svg>View Client Installments
+						</a>
+					</li>
+                    <li>
+						<a class="" href="admin_add_client_installment.aspx">
+							<svg class="glyph stroked table"  style="color:black;"><use xlink:href="#stroked-chevron-right"></use></svg> Add Client's Installments
+						</a>
+					</li>
+					<li>
+						<a class="" href="admin_installment_plan.aspx">
+							<svg class="glyph stroked table"  style="color:black;"><use xlink:href="#stroked-chevron-right"></use></svg> View Property Installments Plan
+						</a>
+					</li>
+                    <li>
+						<a class="" href="admin_add_installment_plans.aspx">
+							<svg class="glyph stroked table"  style="color:black;"><use xlink:href="#stroked-chevron-right"></use></svg> Add Property Installments Plan
+						</a>
+					</li>
+                    
+					
+				</ul>
+			</li>
+
+            <li class="parent ">
+				<a href="admin_advertisement.aspx">
+					<span data-toggle="collapse" href="#sub-item-4"><svg class="glyph stroked chevron-down"><use xlink:href="#stroked-chevron-down"></use></svg></span> Advertisement
+				</a>
+				<ul class="children collapse" id="sub-item-4">
+					<li>
+						<a class="" href="admin_add_advertisement.aspx">
+							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg>Add Advertisement
+						</a>
+					</li>
+					<li>
+						<a class="" href="admin_advertisement.aspx">
+							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> View Advertisement
+						</a>
+					</li>
+					
+				</ul>
+			</li>
+            <li class="parent ">
+				<a href="admin_transfer_form.aspx">
+					<span data-toggle="collapse" href="#sub-item-5"><svg class="glyph stroked chevron-down"><use xlink:href="#stroked-chevron-down"></use></svg></span> Transfer Property
+				</a>
+				<ul class="children collapse" id="sub-item-5">
+					<li>
+						<a class="" href="admin_transfer_form.aspx">
+							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg>Adam's Garden Transfer
+						</a>
+					</li>
+					<li>
+						<a class="" href="admin_client_transfer_form.aspx">
+							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg>Client's Transfer
+						</a>
+					</li>
+                    <li>
+						<a class="" href="adminTransferformView.aspx">
+							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg>View Transfer Form
+						</a>
+					</li>
+					
+				</ul>
+			</li>
+			
+            <li role="presentation" class="divider"></li>
+            </div><!--/.sidebar-->s
+	
+             <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                  </form>
+	
+    </div>
+   
+</body>
+</html>

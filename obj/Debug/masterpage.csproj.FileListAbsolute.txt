@@ -1,0 +1,158 @@
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\ApplicationInsights.config
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\roslyn\csc.exe
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\roslyn\vbc.exe
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\roslyn\VBCSCompiler.exe
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\masterpage.dll.config
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\masterpage.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\masterpage.pdb
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Antlr3.Runtime.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\EntityFramework.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\EntityFramework.SqlServer.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.AI.Web.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.Owin.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.Owin.Security.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Newtonsoft.Json.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Owin.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\System.Web.Optimization.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\System.Web.Providers.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\WebGrease.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.AI.Web.xml
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\System.Web.Optimization.xml
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Antlr3.Runtime.pdb
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Newtonsoft.Json.xml
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\EntityFramework.xml
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\EntityFramework.SqlServer.xml
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\System.Web.Providers.xml
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.Owin.xml
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.Owin.Security.xml
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\obj\Debug\masterpage.csprojResolveAssemblyReference.cache
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\obj\Debug\masterpage.dll
+C:\Users\Datapex\Documents\Visual Studio 2015\Projects\masterpage\masterpage\obj\Debug\masterpage.pdb
+C:\inetpub\wwwroot\masterpage\masterpage\bin\ApplicationInsights.config
+C:\inetpub\wwwroot\masterpage\masterpage\bin\roslyn\csc.exe
+C:\inetpub\wwwroot\masterpage\masterpage\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\inetpub\wwwroot\masterpage\masterpage\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\inetpub\wwwroot\masterpage\masterpage\bin\roslyn\System.Collections.Immutable.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\roslyn\System.Reflection.Metadata.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\roslyn\vbc.exe
+C:\inetpub\wwwroot\masterpage\masterpage\bin\roslyn\VBCSCompiler.exe
+C:\inetpub\wwwroot\masterpage\masterpage\bin\roslyn\VBCSCompiler.exe.config
+C:\inetpub\wwwroot\masterpage\masterpage\bin\masterpage.dll.config
+C:\inetpub\wwwroot\masterpage\masterpage\bin\masterpage.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\masterpage.pdb
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Antlr3.Runtime.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\AspNet.ScriptManager.bootstrap.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\AspNet.ScriptManager.jQuery.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\EntityFramework.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\EntityFramework.SqlServer.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.AI.Agent.Intercept.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.AI.DependencyCollector.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.AI.Web.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.AI.WindowsServer.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.ApplicationInsights.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.AspNet.Identity.Core.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.Owin.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.Owin.Security.Cookies.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.Owin.Security.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.Owin.Security.Facebook.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.Owin.Security.Google.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.Owin.Security.OAuth.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.Owin.Security.Twitter.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.ScriptManager.WebForms.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.Web.Infrastructure.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Newtonsoft.Json.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Owin.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\System.Web.Optimization.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\System.Web.Providers.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\WebGrease.dll
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.AI.DependencyCollector.xml
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.AI.Web.xml
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.AI.WindowsServer.xml
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.ApplicationInsights.xml
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\inetpub\wwwroot\masterpage\masterpage\bin\System.Web.Optimization.xml
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Antlr3.Runtime.pdb
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Newtonsoft.Json.xml
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\inetpub\wwwroot\masterpage\masterpage\bin\EntityFramework.xml
+C:\inetpub\wwwroot\masterpage\masterpage\bin\EntityFramework.SqlServer.xml
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.AspNet.Identity.Core.xml
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\inetpub\wwwroot\masterpage\masterpage\bin\System.Web.Providers.xml
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.Owin.xml
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.Owin.Security.xml
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.Owin.Security.Facebook.xml
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.Owin.Security.Cookies.xml
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.Owin.Security.Google.xml
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.Owin.Security.Twitter.xml
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\inetpub\wwwroot\masterpage\masterpage\bin\Microsoft.Owin.Security.OAuth.xml
+C:\inetpub\wwwroot\masterpage\masterpage\obj\Debug\masterpage.csprojResolveAssemblyReference.cache
+C:\inetpub\wwwroot\masterpage\masterpage\obj\Debug\masterpage.dll
+C:\inetpub\wwwroot\masterpage\masterpage\obj\Debug\masterpage.pdb

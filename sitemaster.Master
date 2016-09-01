@@ -1,0 +1,362 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="sitemaster.master.cs" Inherits="masterpage.sitemaster" %>
+<%@ Import Namespace="System.Data" %>
+<%@ Import Namespace="System.Drawing" %>
+<%@ Import Namespace="System.IO" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>ADams Garden</title>
+
+ 
+    <!-- Start data -->
+    <link href="Content/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="Scripts/jquery-1.10.2.min.js"></script>
+<!-- Custom Theme files -->
+
+       <!-- Fonts -->
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+<!--menu-->
+<script src="Scripts/scripts.js"></script>
+    <script src="Scripts/jquery.prettyPhoto.js"></script>
+
+<link href="Content/styles.css" rel="stylesheet">
+
+<!--//menu-->
+<!--theme-style-->
+<link href="Content/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="Content/prettyPhoto.css">
+       <!-- <link rel="stylesheet" href="assets/css/flexslider.css">-->
+        <link rel="stylesheet" href="Content/font-awesome.css">	
+<!--//theme-style-->
+<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+--><!-- slide -->
+<script src="Scripts/responsiveslides.min.js"></script>
+   <script>
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+      	speed: 200,
+        namespace: "callbacks",
+        pager: true,
+      });
+    });
+  </script>
+    <!-- End data-->
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+
+
+
+
+
+
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <!--header-->
+	<div class="navigation">
+			<div class="container-fluid">
+            <a href="index.aspx"><img src="Images/logo.jpg" width="15%" height="15%" class="logimg" /></a>
+				<nav class="headerpull">
+               
+					<ul >
+                     
+						<li><a  href="index.aspx">Home</a></li>
+                        <li><a  href="ViewProperty.aspx">Properties</a></li>
+                        <li><a  href="installment_plan.aspx">Installment Plan</a>
+                        <li><a  href="offers_and_promotion.aspx">Gallery</a></li>
+						<li><a  href="about.aspx">About Us</a></li>
+						
+						<li><a  href="terms.aspx">Terms</a></li>
+						
+						<li><a  href="contect.aspx">Contact</a></li>
+					</ul>
+				</nav>			
+			</div>
+		</div>
+         <!--header-->
+        <div class="clearfix"></div>
+			<!---pop-up-box---->
+			   
+				<link href="Content/popuo-box.css" rel="stylesheet" type="text/css" media="all"/>
+				<script src="Scripts/jquery.magnific-popup.js" type="text/javascript"></script>
+			<!---//pop-up-box---->
+				<div id="small-dialog" class="mfp-hide">
+					    <!----- tabs-box ---->
+				<div class="sap_tabs">	
+				     <div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+						  <ul class="resp-tabs-list">
+						  	  <li class="resp-tab-item " aria-controls="tab_item-0" role="tab"><span>All Homes</span></li>
+							  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>For Sale</span></li>
+							  <li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>For Rent</span></li>
+							  <div class="clearfix"></div>
+						  </ul>				  	 
+						  <div class="resp-tabs-container">
+						  		<h class="resp-accordion resp-tab-active" role="tab" aria-controls="tab_item-0"><span class="resp-arrow"></span>All Homes</h><div class="tab-1 resp-tab-content resp-tab-content-active" aria-labelledby="tab_item-0" style="display:block">
+								 	<div class="facts">
+									  	<div class="login">
+											<input type="text" value="Search Address, Neighborhood, City or Zip" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search Address, Neighborhood, City or Zip';}">		
+									 		<input type="submit" value=""/>
+									 	</div>        
+							        </div>
+						  		</div>
+							     <h2 class="resp-accordion" role="tab" aria-controls="tab_item-1"><span class="resp-arrow"></span>For Sale</h2><div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+									<div class="facts">									
+										<div class="login">
+											<input type="text" value="Search Address, Neighborhood, City or Zip" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search Address, Neighborhood, City or Zip';}">		
+									 		<input type="submit" value=""/>
+									 	</div> 
+							        </div>	
+								 </div>									
+							      <h2 class="resp-accordion" role="tab" aria-controls="tab_item-2"><span class="resp-arrow"></span>For Rent</h2><div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
+									 <div class="facts">
+										<div class="login">
+											<input type="text" value="Search Address, Neighborhood, City or Zip" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search Address, Neighborhood, City or Zip';}">		
+									 		<input type="submit" value="">
+									 	</div> 
+							         </div>	
+							    </div>
+					      </div>
+					 </div>
+					 <script src="Scripts/easyResponsiveTabs.js" type="text/javascript"></script>
+				    	<script type="text/javascript">
+						    $(document).ready(function () {
+						        $('#horizontalTab').easyResponsiveTabs({
+						            type: 'default', //Types: default, vertical, accordion           
+						            width: 'auto', //auto or any width like 600px
+						            fit: true   // 100% fit in a container
+						        });
+						    });
+			  			 </script>	
+				</div>
+				</div>
+				 <script>
+						$(document).ready(function() {
+						$('.popup-with-zoom-anim').magnificPopup({
+							type: 'inline',
+							fixedContentPos: false,
+							fixedBgPos: true,
+							overflowY: 'auto',
+							closeBtnInside: true,
+							preloader: false,
+							midClick: true,
+							removalDelay: 300,
+							mainClass: 'my-mfp-zoom-in'
+						});
+																						
+						});
+				</script>
+					
+	
+		</div>
+		<div class="clearfix"> </div>
+		</div>	
+</div>
+ 
+<!--//-->	
+	<div class=" header-right">
+		<div class=" banner">
+			 <div class="slider">
+			    <div class="callbacks_container">
+			      <ul class="rslides" id="slider">		       
+					 <li>
+			          	 <div class="banner1">
+			           		<div class="caption">
+					          	<h3><span>Adam's Garden</span></h3>
+					          	<p></p>
+			          		</div>
+			          	</div>
+			         </li>
+					
+                          <%
+                              DataTable sliderDt = advertisement.returnSliderImage();
+                              foreach (DataRow row in sliderDt.Rows)
+                              {
+                                  //  byte[] pic =(byte[])row[0];
+                                  //  MemoryStream ms = new MemoryStream(pic);
+                                  // System.Drawing.Image img =  System.Drawing.Image.FromStream(ms);
+
+                                  byte[] imagedata1 = (byte[])row[0];
+                                  System.Drawing.Image img = System.Drawing.Image.FromStream(new MemoryStream(imagedata1));
+                                  // byte[] picture = (Byte[])row[0]; Response.ContentType = "images/jpeg"; Response.BinaryWrite(picture);
+                                  //System.Drawing.Image img = advertisement.ByteArrayToImage(image);
+                               %>
+                         <!--<div class="banner2">-->
+                       <li>
+			          	 <div class="banner2">
+
+                               <img  src='<%="data:Image/jpg;base64," + Convert.ToBase64String((byte[])imagedata1)%>' class="banner-image"  alt="" />
+
+                               
+			           		<div class="caption">
+					          	<h3><span>Adam's Garden</span></h3>
+					          	
+			          		</div>
+			          	</div>
+                        
+			         </li>
+                       <%} %>
+			         <li>
+			          	 <div class="banner3">
+			           		<div class="caption">
+					          	<h3><span>Adam's Garden</span></h3>
+					          	<p></p>
+			          		</div>
+			          	</div>
+			         </li>		
+			      </ul>
+			  </div>
+			</div>
+		</div>
+	</div>
+        <!--header-bottom-->
+	<div class="banner-bottom-top">
+			<div class="container Container_menu">
+			<div class="bottom-header">
+				<div class="header-bottom">
+					<div class=" bottom-head">
+						<a href="policy.aspx">
+							<div class="buy-media">
+								<i class="buy"> </i>
+								<h6>Policy</h6>
+							</div>
+						</a>
+					</div>
+					<div class=" bottom-head">
+						<a href="installment_plan.aspx">
+							<div class="buy-media">
+							<i class="fa fa-money" style="font-size:30px;color:grey;"> </i>
+							<h6>Installment Plans</h6>
+							</div>
+						</a>
+					</div>
+					<div class=" bottom-head">
+						<a href="offers_and_promotion.aspx">
+							<div class="buy-media">
+							<i class="pg"> </i>
+							<h6>Gallery</h6>
+							</div>
+						</a>
+					</div>
+					
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+	</div>
+	</div>
+        <%--<div class="content">
+	<div class="content-grid">
+		<div class="container">
+			<h3>Most Popular</h3>
+          
+		
+            
+             
+           <%
+                DataTable tb=advertisement.returnAvertisementImage();
+                foreach (DataRow row in tb.Rows)
+                {
+                  //  byte[] pic =(byte[])row[0];
+                  //  MemoryStream ms = new MemoryStream(pic);
+        // System.Drawing.Image img =  System.Drawing.Image.FromStream(ms);
+
+                  byte[] imagedata = (byte[])row[0];
+                System.Drawing.Image img = System.Drawing.Image.FromStream(new MemoryStream(imagedata));
+                  // byte[] picture = (Byte[])row[0]; Response.ContentType = "images/jpeg"; Response.BinaryWrite(picture);
+                  //System.Drawing.Image img = advertisement.ByteArrayToImage(image);
+                               %>
+             <div class="col-md-4 box_2">
+                    
+		     	 <a href="<%="data:Image/jpg;base64," + Convert.ToBase64String((byte[])imagedata)%>" class="mask" target="_blank">
+			     	   	<img class="img-responsive zoom-img"   src='<%="data:Image/jpg;base64," + Convert.ToBase64String((byte[])imagedata)%>'alt="" />
+                    
+			     	 </a>
+		     	   <div class="most-1">
+			     	   	 <h5><a href="">Ads</a></h5>
+			     	    	<p></p>
+			     	   </div>
+		     	</div>
+		      </div>
+            <%} %>--%>
+			 
+		 	<%--<div class="clearfix"> </div>--%>
+		<%--</div>
+	</div>--%>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                
+        </asp:ContentPlaceHolder>
+            <!--footer-->
+<div class="footer">
+	<div class="container">
+		<div class="footer-top-at">
+			<div class="col-md-9 amet-sed" style="padding-left:0px; float:left;width=50%;">
+				<h4>Our Company</h4>
+				<ul class="nav-bottom">
+                    <li  ><a href="index.aspx" style="color:white;font-size:large;">Home</a></li>
+					<li  ><a href="about.aspx" style="color:white;font-size:large;">About Us</a></li>
+					
+					
+					<li><a href="terms.aspx" style="color:white;font-size:large;">Terms</a></li>
+					
+				</ul>	
+			</div>
+			<!--<div class="col-md-3 amet-sed ">
+				<h4>Work With Us</h4>
+					<ul class="nav-bottom">
+						<li><a href="single.html">Real Estate Brokers</a></li>
+						<li><a href="single.html">Business Development</a></li>
+						<li><a href="single.html">Affiliate Programs</a></li>
+						<li><a href="contact.html">Sitemap</a></li>
+						<li><a href="career.html">Careers</a></li>
+						<li><a href="feedback.html">Feedback</a></li>	
+					</ul>	
+			</div>-->
+			<div class="col-md-3 amet-sed" style="padding-left:0px; float:left;width=60%;color:white">
+				<h4>Project by: Pervez Sundho</h4>
+				
+					<ul class="nav-bottomfooter" >
+                       <li>Head Office: Office # 07, 2nd floor</li>
+                        <li>Al-Anayat Plaza</li>
+                        <li>G-11 Markaz, Islamabad.</li>
+				<li style="font-size:x-large;">Sales & Marketing Team</li>
+						<li>Tel: 051-2361261</li>
+						<li>Fax: 051-2361621</li>
+                        <li>Mob: 0323-7777039, 0321-5151604, 0331-5555852</ </li>
+                        <li></li>
+                        <li></li>
+                        <li>Email: sales@adamgarden.com</li>
+						<li>www.adamgardan.co.uk</li>
+					</ul>	
+			</div>
+			<!--<div class="col-md-4 amet-sed ">
+				<h4>Property Services</h4>
+				   <ul class="nav-bottom">
+						<li><a href="single.html">Residential Property</a></li>
+						<li><a href="single.html">Commercial Property</a></li>
+					</ul>	
+			</div>-->
+		<div class="clearfix"> </div>
+		</div>
+	</div>
+	<div class="footer-bottom">
+		<div class="container">
+			<div class="col-md-4 footer-logo">
+				<h3><a href="index.html">Adam's Garden</a></h3>
+			</div>
+			<div class="col-md-8 footer-class">
+				<h4>© 2016 Adam's Gardern. All Rights Reserved | Design by  <a href="http://www.datapexsol.com/" target="_blank">Datapex Solutions</a> </h4>
+			</div>
+		<div class="clearfix"> </div>
+	 	</div>
+	</div>
+</div>
+<!--//footer-->
+    </form>
+</body>
+</html>

@@ -1,0 +1,21 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="CS.aspx.cs" Inherits="_Default" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <script type="text/javascript">
+        function generate() {
+            var output = "waqas khan";
+            var OpenWindow = window.open("Admin_Transfer_Image.aspx", "mywin", "width=800,height=700");
+            OpenWindow.dataFromParent = output; // dataFromParent is a variable in child.html
+            OpenWindow.init();
+        };
+</script>
+    
+</head>
+<body>
+<script type="text/javascript" src="Scripts/jquery.min.js"></script>
+   <input type="button" value="Generate page"  onclick="generate();"/>
+</body>
+</html>
